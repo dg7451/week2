@@ -1,0 +1,10 @@
+
+??//
+html
+var addCar = funtion
+
+
+.js
+$("#myform").on("submit", funtion(ev){
+addCar(ev);
+return false;)}
