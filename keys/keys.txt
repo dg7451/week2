@@ -19,7 +19,7 @@ var googleurl=https://maps.googleapis.com/maps/api/geocode/json?address=+ zip co
 
 darksky  https://api.darksky.net/forecast/8bd2541890ff80a0cfa7628955f6de1b/" + lat +"," + long +"
 
-var darkSkyKey = "<your key here>";
+var darkSkyKey = "8bd2541890ff80a0cfa7628955f6de1b ";
    $.ajax("https://api.darksky.net/forecast/" + darkSkyKey + "/37.8267,-122.4233", { dataType: "jsonp"}).done(function(data) {
        console.log(data);
 
