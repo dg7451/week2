@@ -1,0 +1,25 @@
+Google Api Key  AIzaSyDMzCizTxJbFhlR9kiyIWS_8GT_Nc8yV3Q
+
+
+
+https://maps.googleapis.com/maps/api/geocode/json?address=1600+Amphitheatre+Parkway,+Mountain+View,+CA&key=AIzaSyDMzCizTxJbFhlR9kiyIWS_8GT_Nc8yV3Q
+
+darkSky-----------------------------------------------------------------
+
+https://api.darksky.net/forecast/8bd2541890ff80a0cfa7628955f6de1b/37.8267,-122.4233
+
+8bd2541890ff80a0cfa7628955f6de1b
+
+Secpass#1
+-------------------------------------------------------------------------
+
+
+//call Googlewith a zipp code
+var googleurl=https://maps.googleapis.com/maps/api/geocode/json?address=+ zip code + &key=AIzaSyDMzCizTxJbFhlR9kiyIWS_8GT_Nc8yV3Q
+
+darksky  https://api.darksky.net/forecast/8bd2541890ff80a0cfa7628955f6de1b/" + lat +"," + long +"
+
+var darkSkyKey = "<your key here>";
+   $.ajax("https://api.darksky.net/forecast/" + darkSkyKey + "/37.8267,-122.4233", { dataType: "jsonp"}).done(function(data) {
+       console.log(data);
+
