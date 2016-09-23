@@ -1,14 +1,22 @@
-.card1{
+.cards{
 text-align:center;
-background-image:url("https://www.google.com/imgres?imgurl=https%3A%2F%2Fs-media-cache-ak0.pinimg.com%2F564x%2F6d%2F64%2Fd3%2F6d64d339f8162ee1ba09e8b1ab65f300.jpg&imgrefurl=https%3A%2F%2F");
-
-
-background-size: 100% 100%;
+-webkit-text-fill-color:whitesmoke ;
+background-image: url("http://www.cubebreaker.com/wp-content/uploads/2014/04/skyline-11-paris.jpg");
+color: mintcream;
+    font-size:50%;
+    padding: 1px;
+    background-size:cover;
+    height: 150px;
+    width:100px;
 background-repeat:none;
-
 border-radius:20px;
 margin:10px;
-
-position:relative;
 }
+ 
 
+
+
+
+button {
+    font-weight: bold;
+}
